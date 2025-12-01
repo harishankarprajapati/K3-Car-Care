@@ -1,0 +1,227 @@
+/* -------1920--------- */
+@media only screen and (min-width:1920px) {
+  .container-fluid {
+    width: 1903px;
+    margin: auto;
+  }
+}
+
+/* -------992px--------- */
+@media only screen and (max-width:992px) {
+
+  .service-content h3 {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .service-number {
+    font-size: 22px;
+  }
+
+  .divider {
+    border: none;
+  }
+
+  .offcanvas-header {
+    background: #fe0000;
+  }
+
+  button.btn-close.btn-close-white.text-reset {
+    opacity: 1;
+    font-size: 20px !important;
+  }
+
+  .headermenusec {
+    font-size: 18px;
+    color: #000;
+    padding-left: 0px !important;
+  }
+
+  .navbar-nav.justify-content-center.align-items-center.flex-grow-1.pe-3 {
+    align-items: start !important;
+  }
+
+  .navbar-toggler {
+    border-color: #fe0000 !important;
+    padding: 10px 15px;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='0'%3E%3Cstop stop-color='%23fe0000'/%3E%3Cstop offset='1' stop-color='%23fbd14b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath stroke='url(%23g)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+
+}
+
+/* -------767px--------- */
+@media only screen and (max-width:767px) {
+
+  .service-content h3 {
+    font-size: 16px;
+    margin-top: 35px;
+  }
+
+  .service-number {
+    font-size: 20px;
+  }
+
+  .read-btn {
+    padding: 7px 18px;
+    font-size: 9px;
+  }
+
+  .sechersec {
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  .sechersec h1 {
+    font-size: 35px;
+  }
+
+  .sectextherd p {
+    font-size: 12px;
+  }
+
+  .sectextherd h3 {
+    font-size: 30px;
+  }
+
+  .sectextherd h6 {
+    width: 90%;
+  }
+
+  .secwwbg,
+  .secwwbg2 {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .secpabg {
+    padding: 0;
+  }
+
+  .sectextherd2 {
+    padding: 40px 10px 0px 10px !important;
+  }
+
+  .sechonaboutbg2 {
+    margin-top: -2px;
+    padding: 0px 10px 40px 10px;
+  }
+
+  .counter-box {
+    border: 1px solid #fe0000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .sectestmonbg {
+    padding: 20px 10px;
+  }
+
+  .secresbg {
+    text-align: center;
+  }
+
+  .container-fluid.seclikebg .row {
+    text-align: center;
+  }
+
+  .secwhattext {
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .feature-box {
+    padding: 25px 10px;
+    border: 1px solid red;
+  }
+
+  .secpamd {
+    padding: 40px 5px 0px 5px !important;
+  }
+
+  .feature-title {
+    font-size: 18px;
+  }
+
+  .sececerbg {
+    padding: 20px 10px 40px 10px;
+  }
+
+  .sectrubg {
+    padding: 40px 10px 0px 10px;
+  }
+
+  .sechesfoottext {
+    padding-top: 40px;
+    font-size: 25px;
+  }
+
+  .secrecbg {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .aectem3 {
+    text-align: center;
+  }
+
+  .footerbg2 {
+    padding-bottom: 20px;
+  }
+
+  .mission-item {
+    gap: 10px;
+  }
+
+  .mission-number {
+    width: 80px;
+    height: 32px;
+    font-size: 15px;
+  }
+
+  .vm-title {
+    margin-top: 20px;
+  }
+
+  .sec-cont-hh {
+    text-align: center;
+  }
+
+  .secpaacont,
+  .secpaacont2 {
+    padding: 40px 0px;
+  }
+
+  .memversecb {
+    padding: 0;
+  }
+}
+
+/* -------480px--------- */
+@media only screen and (max-width:480px) {
+
+  .service-content {
+    top: 15px;
+    left: 10px;
+  }
+
+  .service-content h3 {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .service-number {
+    font-size: 18px;
+  }
+
+  .read-btn {
+    padding: 7px 18px;
+    font-size: 9px;
+  }
+
+  .secpabg {
+    padding: 0;
+  }
+}

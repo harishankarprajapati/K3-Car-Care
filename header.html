@@ -1,0 +1,117 @@
+  <style>
+    .mobile-bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #000; /* theme color */
+      padding: 10px 0;
+      z-index: 1050;
+    }
+    .mobile-bottom-nav a,
+    .mobile-bottom-nav button {
+      color: #fff;
+      font-size: 22px;
+    }
+    .mobile-bottom-nav a.active,
+    .mobile-bottom-nav button.active {
+      color: #ff4081; /* active color */
+    }
+  </style>
+
+<div class="container-fluid py-0 sec-menu-bgg">
+  <div class="sec-space-left-right-nav">
+    <nav class="navbar navbar-expand-xl navbar-dark">
+      <div class="container-fluid secwhitpad align-items-center">
+        <a href="index.html" class="navbar-brand logosec">
+          <img class="img-fluid" src="images/main-logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end sec-togle-bg" id="navbarOffcanvas" tabindex="-1"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="pricing.html">Pricing</a>
+                </li>
+                  <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="blogs.html">blogs</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link px-4 headermenusec" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Desktop cart/search/login -->
+            <div class="seccaetbg d-none d-xl-flex">
+            
+              <!-- Login -->
+              <p class="sechscal"><a href="#"><i class="bi bi-telephone-inbound-fill"></i> +000 123 456 789</a></p>
+              <!-- Cart -->
+              <p class="sechedbtn"><a href="#">Book Appointment</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- wharshapp -->
+<!-- <div class="floating_btn">
+  <a target="_blank" href="https://wa.me/+91 1234567890">
+    <div class="contact_icon">
+      <i class="fa-brands fa-whatsapp "></i>
+    </div>
+  </a>
+  <p class="text_icon">Talk to us?</p>
+</div> -->
+
+
+<!-- Back to top button -->
+<!-- <a id="button"></a> -->
+
+
+<script>
+
+  var btn = $('#button');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+
+</script>
