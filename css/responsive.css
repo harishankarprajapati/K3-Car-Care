@@ -94,6 +94,9 @@
     width: 50%;
     margin-bottom: 20px;
   }
+  .heaname h2 {
+    font-size: 30px;
+  }
 
   .secpabg {
     padding: 0;
